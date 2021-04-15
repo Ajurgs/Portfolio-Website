@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alex Jurgs Portfolio</title>
-    <link rel="stylesheet" href="/Assets/css/style.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
   </head>
   <body>
     <!-- header -->
-    <header>
-      <h1>Alexaner Jurgs</h1>
+    <header class="header">
+      <h1>Alexander Jurgs</h1>
       <!-- nav bar -->
       <nav>
-        <!-- About me Nav Link -->
-        <a href="#AboutMe">About Me</a>
-        <!-- Projects Nav Link -->
-        <a href="#Projects">Projects</a>
-        <!-- Contact Info Nav Link -->
-        <a href="#ContactInfo">Contact</a>
+        <ul>
+          <!-- About me Nav Link -->
+          <li><a href="#AboutMe">About Me</a></li>
+          <!-- Projects Nav Link -->
+          <li><a href="#Projects">Projects</a></li>
+          <!-- Contact Info Nav Link -->
+          <li><a href="#ContactInfo">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
     <!-- main -->
     <main>
       <!-- About me -->
-      <section id="AboutMe">
+      <section id="AboutMe" class="info">
         <h2>About Me</h2>
+        <div class="line"></div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
           iste tenetur labore, porro blanditiis error veritatis corporis unde
@@ -53,17 +56,17 @@
         </section>
       </section>
       <!-- Contact Info -->
-      <section id="ContactInfo">
+      <section id="ContactInfo" class="Contact">
         <h2>Contact Info</h2>
         <ul>
-          <li id="phone">
+          <li>
             <strong>Phone:</strong> <a href="Tel:+13035555555">555-5555</a>
           </li>
-          <li id="email">
+          <li>
             <strong>Email:</strong>
             <a href="Mailto: someplace@gmail.com">someplace@gmail.com</a>
           </li>
-          <li id="github">
+          <li>
             <strong>Github:</strong>
             <a href="https://github.com/Ajurgs">Github</a>
           </li>
