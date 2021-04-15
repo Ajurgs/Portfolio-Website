@@ -2,17 +2,21 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  color: rgb(88, 182, 65);
 }
 
 body {
-  background-color: rgb(158, 158, 180);
+  width: auto;
+  background-image: url(https://images.unsplash.com/photo-1509223740887-8ab81082b074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
 }
+
 .header {
   width: 100%;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(63, 150, 201);
-  color: rgb(0, 0, 0);
 }
 .header h1 {
   display: inline-block;
