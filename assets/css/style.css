@@ -5,6 +5,7 @@
   color: black;
   background-color: whitesmoke;
   font-family: "Cairo", sans-serif;
+  font-size: 18px;
 }
 
 /* header and all header realated */
@@ -20,6 +21,7 @@
   width: 400px;
   margin: 15px;
   padding: 5px;
+  font-size: 2em;
 }
 
 .header nav {
@@ -50,11 +52,20 @@
   padding-bottom: 5px;
   padding-left: 10px;
 }
+.sectionHeader h2 {
+  min-width: 95px;
+  font-size: 1.5em;
+  text-align: left;
+}
 .sectionHeader div {
   align-items: center;
   width: 100%;
   border-bottom: 2px solid black;
   color: black;
+}
+.info aside,
+.projects aside {
+  width: 95px;
 }
 /* info */
 .info {
@@ -70,10 +81,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.info aside,
-.projects aside {
-  width: 80px;
-}
+
 .display {
   display: flex;
   flex-wrap: wrap;
