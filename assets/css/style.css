@@ -1,28 +1,31 @@
 * {
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
   color: black;
   background-color: whitesmoke;
   font-family: "Cairo", sans-serif;
 }
+
+/* header and all header realated */
 .header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid black;
 }
 .header h1 {
-  flex: 1;
-  box-sizing: border-box;
+  text-align: center;
   height: 50px;
-  width: 100px;
-  margin-right: 15px;
+  width: 400px;
+  margin: 15px;
   padding: 5px;
 }
 
 .header nav {
   margin: 10px;
   padding: 5px;
+  align-items: center;
 }
 
 .header nav ul {
@@ -35,12 +38,73 @@
 }
 
 .header nav ul li a {
+  text-align: center;
   text-decoration: none;
-  /* text-shadow: 1px 1px 1px black; */
+}
+/* section header */
+.sectionHeader {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.sectionHeader div {
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid black;
+  color: black;
+}
+/* info */
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info p {
+  flex: 4;
+  justify-content: center;
+}
+/* project section */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info aside,
+.projects aside {
+  width: 80px;
+}
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 4;
+  justify-content: center;
+  padding-right: 30px;
+  padding-top: 10px;
 }
 
-@media screen and(max-width:768px) {
-  .header nav {
-    order: 2;
+.project {
+  flex: 1 1 300px;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+
+.project a {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.project a img {
+  margin-top: auto;
+  margin-left: auto;
+  height: 300px;
+  width: 300px;
+}
+/* responsiveness  */
+@media screen and (max-width: 707px) {
+  .header {
+    justify-content: center;
   }
 }
