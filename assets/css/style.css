@@ -25,6 +25,7 @@
 }
 
 .header nav {
+  display: flex;
   margin: 10px;
   padding: 5px;
   align-items: center;
@@ -32,6 +33,7 @@
 
 .header nav ul {
   list-style-type: none;
+  height: 1rem;
 }
 
 .header nav ul li {
@@ -49,13 +51,12 @@
   display: inline-flex;
   flex-direction: row;
   align-items: flex-end;
-  padding-bottom: 5px;
-  padding-left: 10px;
+  padding: 10px 0 0px 10px;
 }
 .sectionHeader h2 {
   min-width: 95px;
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
 }
 .sectionHeader div {
   align-items: center;
@@ -64,8 +65,10 @@
   color: black;
 }
 .info aside,
-.projects aside {
-  width: 95px;
+.projects aside,
+.contact aside {
+  padding-left: 10px;
+  width: 105px;
 }
 /* info */
 .info {
@@ -75,6 +78,8 @@
 .info p {
   flex: 4;
   justify-content: center;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 /* project section */
 .projects {
@@ -87,7 +92,8 @@
   flex-wrap: wrap;
   flex: 4;
   justify-content: center;
-  padding-right: 30px;
+  padding-right: 20px;
+  padding-left: 10px;
   padding-top: 10px;
 }
 
@@ -110,9 +116,59 @@
   height: 300px;
   width: 300px;
 }
+/* info section */
+.contact {
+  display: flex;
+}
+.contactInfo {
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 30px;
+}
+.contactInfo div {
+  padding: 10px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+  margin: 10px 0px;
+}
+.footer h2 {
+  font-size: 90%;
+  padding: 10px 0px;
+}
+.footer p {
+  font-size: 0.8em;
+}
 /* responsiveness  */
 @media screen and (max-width: 707px) {
   .header {
     justify-content: center;
+  }
+  .contactInfo {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .sectionHeader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info aside,
+  .projects aside,
+  .contact aside {
+    display: none;
+  }
+  .projects {
+    padding: 10px 15px 0px 15px;
   }
 }
