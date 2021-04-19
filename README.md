@@ -15,6 +15,9 @@ Currently most of the site is placeholder and more of proff of concept for the l
 
 No Installation necessary. this site is currently live at [https://ajurgs.github.io/Portfolio-Website/](https://ajurgs.github.io/Portfolio-Website/)
 
+Here is what the loaded page should look like
+![screenshot](./assets/images/Screenshot.png)
+
 ## Usage
 
 This is to be uses as a portfolio for showcasing all of my work
