@@ -26,4 +26,5 @@ This is to be uses as a portfolio for showcasing all of my work
 
 Reset.css from https://meyerweb.com/eric/tools/css/reset/
 Cairo font: https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap
-placeholder images form unsplash.com
+placeholder images form unsplash.com:
+Potographer: [Vino Li](https://unsplash.com/@vinomamba24)
